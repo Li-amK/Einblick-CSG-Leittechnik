@@ -6,7 +6,7 @@ from urllib.parse import unquote
 
 app = Flask(__name__)
 
-SECRET_TOKEN = "HIER KOMMT IRGENDWANN WAS BESSERS HIN HOFFE ICH DICH ABER SUPER GEHEIM:15649849853453/"
+SECRET_TOKEN = "HIER KOMMT IRGENDWANN WAS BESSERES HIN HOFFE ICH DICH ABER SUPER GEHEIM:15649849853453/"
 
 
 @app.route('/api/whatever/<string:encoded_id>', methods=['GET'])
