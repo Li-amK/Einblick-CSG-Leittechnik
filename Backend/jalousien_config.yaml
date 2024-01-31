@@ -1,0 +1,7 @@
+# So wird das ganze aussehen, die Adressen muss ich noch importieren, da will ich aber was aus der ETS automatisieren...
+
+R039:
+  - group_address_switch: '8/2/12'
+
+R146:
+  - group_address_switch: '8/2/13'
