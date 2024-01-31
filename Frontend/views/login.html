@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>CSG Leittechnik | Login</title>
+    <link href="/login_style.css" rel="stylesheet">
+    <link href="/toast.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="login-container">
+    <h2>CSG Leittechnik - Login</h2>
+    <form id="login-form" action="/login" method="post">
+        <label for="username">
+            <input id="username" name="username" placeholder="Benutzername" required type="text">
+        </label>
+        <label for="password"></label>
+            <input id="password" name="password" placeholder="Passwort" required type="password">
+        <!-- <label style="align-self: flex-start">
+            <input type="checkbox">Angemeldet bleiben?
+        </label> 
+      TODO! Irgendwann muss ich das noch bauen!-->
+        <button type="submit">Anmelden</button>
+    </form>
+</div>
+<div id="toast-container"></div>
+<script src="/toast.js"></script>
+</body>
+</html>
