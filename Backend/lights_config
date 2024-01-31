@@ -1,0 +1,45 @@
+# Analog zu jalousien_config.yaml
+
+Aula:
+  - name: Aula Bühne Ost
+    group_address_switch: '7/0/6'
+  - name: Aula innen Süd
+    group_address_switch: '7/0/7'
+  - name: Aula innen Süd Mitte
+    group_address_switch: '7/0/8'
+  - name: Aula innen Mitte
+    group_address_switch: '7/0/9'
+  - name: Aula innen Nord Mitte
+    group_address_switch: '7/0/10'
+  - name: Aula innen Nord
+    group_address_switch: '7/0/11'
+
+Mensa:
+  - name: Mensa Nord
+    group_address_switch: '7/1/0'
+  - name: Mensa Mitte Nord
+    group_address_switch: '7/1/1'
+  - name: Mensa Mitte Süd
+    group_address_switch: '7/1/2'
+  - name: Mensa Süd
+    group_address_switch: '7/1/3'
+
+R013:
+  - name: R013
+    group_address_brightness: '13/0/0'
+
+R014:
+  - name: R014
+    group_address_brightness: '13/0/1'
+
+R015:
+  - name: R015
+    group_address_brightness: '13/0/2'
+
+R016:
+  - name: R016
+    group_address_brightness: '13/0/3'
+
+R105:
+  - name: R105
+    group_address_brightness: '0/3/47'
