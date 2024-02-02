@@ -3,10 +3,10 @@ import yaml
 
 from gateway_communicator import write, switch_light, dimm_light
 
-with open('lights_config.yaml', 'r') as file:
+with open('./Backend/lights_config.yaml', 'r') as file:
     config_data_light = yaml.safe_load(file)
 
-with open('jalousien_config.yaml', 'r') as file:
+with open('./Backend/jalousien_config.yaml', 'r') as file:
     config_data_jalousie = yaml.safe_load(file)
 
 
